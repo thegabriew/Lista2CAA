@@ -1,0 +1,13 @@
+A) Custo = n * (n + 1)
+Custo = n^2 + n
+Custo total = O(n^2)
+
+B) y = n * log(x)
+x = n
+y = n * log(n)
+Custo total = n * log(n)
+
+C) y = log(x)^2
+x = n
+y = log^2(n)
+Custo total = log^2(n)
