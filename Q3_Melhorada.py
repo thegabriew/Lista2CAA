@@ -1,3 +1,5 @@
+import bisect
+
 def encontrar_dois_soma(números, X):
 
   # Ordena o vetor.
