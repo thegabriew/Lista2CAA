@@ -1,3 +1,5 @@
+from typing import List, Tuple
+
 def encontrar_posicao_insercao(nums: List[int], alvo: int) -> int:
     # Inicializa os ponteiros esquerdo e direito.
   esquerda = 0
