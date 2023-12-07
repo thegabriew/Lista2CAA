@@ -1,6 +1,7 @@
+from typing import List, Tuple
+
 def merge_sorted_arrays(nums1, m, nums2, n):
-
-
+  
   # Inicialize o índice dos dois arrays.
 
   i = 0
