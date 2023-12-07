@@ -1,0 +1,40 @@
+#Primeira
+
+A função Pesquisa1 tem complexidade O(n^3), pois a cada chamada recursiva, o tamanho do subproblema é reduzido a um terço. No entanto, o número de chamadas recursivas é proporcional a n. Portanto, o custo total da função é n * n^3 = O(n^3).
+
+
+#Segunda
+
+
+A função Pesquisa2 tem complexidade O(n), O(n log n) ou O(n^2), dependendo do algoritmo usado para obter o maior elemento. Se o algoritmo para obter o maior elemento for linear, ou seja, se for necessário inspecionar todos os elementos do subproblema para encontrar o maior, então a função Pesquisa2 terá complexidade O(n). Se o algoritmo para obter o maior elemento for logarítmico, ou seja, se for necessário inspecionar apenas um número logarítmico de elementos do subproblema para encontrar o maior, então a função Pesquisa2 terá complexidade O(n log n). Se o algoritmo para obter o maior elemento for quadrático, ou seja, se for necessário inspecionar todos os elementos do subproblema duas vezes, então a função Pesquisa2 terá complexidade O(n^2).
+
+
+#Terceira
+
+A função Pesquisa3 implementa um algoritmo de divisão e conquista. logo após ele faz uma verificação, se o tamanho da lista (n) for menor ou igual a 1, 
+a função retorna imediatamente.  Então faz uma ordenação quando n for maior que 1. Após a ordenação, aproximadamente 1/3 dos elementos são descartados, 
+e a função faz uma chamada recursiva com o restante da lista. No pior caso, essa chamada recursiva continuará até que reste apenas um elemento na lista, 
+resultando em O(log⁡ n) chamadas recursivas. Cada chamada recursiva executa a função Enigma2 com uma sublista de tamanho variável. 
+No pior caso, Enigma2 precisa percorrer toda a sublista, realizando  O(n) comparações. Portanto, a complexidade total no pior caso do algoritmo implementado 
+por Pesquisa3 é dominada pela complexidade da ordenação,  esultando em O(nlogn). Essa análise leva em consideração 
+o pior cenário em que a chamada recursiva é feita até a lista ter apenas um elemento.
+
+Temos assim: 
+
+Pesquisa3:
+
+Pior caso: O(n log(n))
+Melhor caso: O(n)
+Caso médio: O(n log(n))
+
+Enigma1:
+
+Pior caso: O(n log(n))
+Melhor caso: O(n)
+Caso médio: O(n log(n))
+
+Enigma2:
+
+Pior caso: O(n)
+Melhor caso: O(1)
+Caso médio: O(log(n))
