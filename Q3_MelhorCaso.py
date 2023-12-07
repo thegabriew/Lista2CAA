@@ -1,3 +1,5 @@
+from typing import List, Tuple
+
 def dois_soma(números: List[int], alvo: int) -> List[int]:
 
   # Cria um dicionário para armazenar os números já vistos.
