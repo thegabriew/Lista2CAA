@@ -1,8 +1,18 @@
 #Primeira
 
-A função Pesquisa3 possui uma complexidade de O(n log n), assumindo que o uso do Merge Sort foi eficiente, No algoritmo temos a chamada recursiva, na qual a função Enigma1 usa duas vezes, uma para cada parte do subproblema. O Enigma1 utiliza a função Enigma2 para particionar o subproblema, e, considerando a complexidade de Enigma2 como O(n) devido às comparações entre elementos, a complexidade total de Enigma1 é O(n log n).A Pesquisa3 ordena os elementos (O(n log n)), fazendo chamadas recursivas com subproblemas reduzidos em um terço a cada vez, e efetua duas chamadas à função Enigma1, cuja complexidade é O(n log n) para cada chamada. Assim, a complexidade total da função Pesquisa3 permanece como O(n log n).
+A função Pesquisa3 possui uma complexidade de O(n log n), assumindo que o uso do Merge Sort foi eficiente, 
+no algoritmo temos a chamada recursiva, na qual a função Enigma1 usa duas vezes, uma para cada parte do subproblema. 
+O Enigma1 utiliza a função Enigma2 para particionar o subproblema, e, considerando a complexidade de Enigma2 como O(n) 
+devido às comparações entre elementos, a complexidade total de Enigma1 é O(n log n).A Pesquisa3 ordena os elementos (O(n log n)), 
+fazendo chamadas recursivas com subproblemas reduzidos em um terço a cada vez, e efetua duas chamadas à função Enigma1, 
+cuja complexidade é O(n log n) para cada chamada. Assim, a complexidade total da função Pesquisa3 permanece como O(n log n).
 
 #Segunda
 
-O código apresenta uma variação de bubble sort com um váriavel de troca para controlar as trocas do loop interno, caso não hajam trocas, a lista já está ordenada. O laço interno executa n-1 vezes e o laço continua enquanto troca for "true", então no pior do caso haverá N repetições. A complexidade geral é O(n^2) no pior caso e O(n) no melhor caso (quando a lista já está ordenada). A função AlgumaCoisa tem três laços aninhados. O laço externo itera de 1 a n, inclusive. O laço interno itera de i+1 a n, inclusive. O laço interno itera de 1 a j. Então temos n * (n^2 - n) / 2 = O(n^3). A função AlgumaCoisa2 é semelhante à AlgumaCoisa, mas com pequenas modificações no intervalo do laço interno que itera de i+1 a n, temos então n * (n^2 - n - 2n) / 2 = O(n^3).
+O código apresenta uma variação de bubble sort com um váriavel de troca para controlar as trocas do loop interno, 
+caso não hajam trocas, a lista já está ordenada. O laço interno executa n-1 vezes e o laço continua enquanto troca for "true", 
+então no pior do caso haverá N repetições. A complexidade geral é O(n^2) no pior caso e O(n) no melhor caso (quando a lista já está ordenada). 
+A função AlgumaCoisa tem três laços aninhados. O laço externo itera de 1 a n, inclusive. O laço interno itera de i+1 a n, inclusive. 
+O laço interno itera de 1 a j. Então temos n * (n^2 - n) / 2 = O(n^3). A função AlgumaCoisa2 é semelhante à AlgumaCoisa, 
+mas com pequenas modificações no intervalo do laço interno que itera de i+1 a n, temos então n * (n^2 - n - 2n) / 2 = O(n^3).
 
