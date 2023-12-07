@@ -29,9 +29,3 @@ def max_palindrome(sequencia):
 
     # Retorna a subsequência palíndroma de tamanho máximo.
     return sequencia[inicio_maximo:inicio_maximo + tamanho_maximo]
-
-
-# Exemplo de uso:
-sequencia = "babad"
-resultado = max_palindrome(sequencia)
-print(resultado)
