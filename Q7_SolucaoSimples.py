@@ -1,3 +1,5 @@
+from typing import List, Tuple
+
 def quadrados_ordenados(nums: List[int]) -> List[int]:
 
   # Cria um novo array para armazenar os quadrados.
