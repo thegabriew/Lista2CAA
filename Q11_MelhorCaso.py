@@ -1,3 +1,5 @@
+from typing import List, Tuple
+
 def merge_sorted_arrays_in_place(nums1: List[int], m: int, nums2: List[int],
                                  n: int) -> None:
 
