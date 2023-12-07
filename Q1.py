@@ -1,3 +1,5 @@
+from typing import List, Tuple
+
 def particao_de_tres_vias(S: List[int], pivo: int, p: int,
                           r: int) -> Tupla[int, int]:
 
