@@ -23,4 +23,3 @@ def encontrar_posicao_insercao(nums: List[int], alvo: int) -> int:
   # Se o loop terminar e os ponteiros ainda não se encontrarem, o alvo não está no array.
   # Nesse caso, retorna o índice onde o alvo seria inserido.
   return esquerda
-```
